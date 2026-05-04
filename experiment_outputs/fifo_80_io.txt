@@ -1,0 +1,16 @@
+Policy: FIFO
+Task distribution: 80% IO / 20% CPU
+Total tasks generated: 1000
+Total tasks completed: 1000
+IO tasks completed: 788
+CPU tasks completed: 212
+Worker pool size: 8
+Task duration: 200 ms
+Arrival interval: 20 ms
+CPU rule: IO = 10%, CPU = 35%, global CPU <= 100%
+Total runtime: 33818 ms
+Average CPU usage: 90.52%
+Average active workers: 5.91/8
+Average wait time: 6695.62 ms
+Average turnaround time: 6895.72 ms
+Max wait time: 13556 ms

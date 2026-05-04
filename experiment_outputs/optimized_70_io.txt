@@ -1,0 +1,16 @@
+Policy: Optimized
+Task distribution: 70% IO / 30% CPU
+Total tasks generated: 1000
+Total tasks completed: 1000
+IO tasks completed: 710
+CPU tasks completed: 290
+Worker pool size: 8
+Task duration: 200 ms
+Arrival interval: 20 ms
+CPU rule: IO = 10%, CPU = 35%, global CPU <= 100%
+Total runtime: 40999 ms
+Average CPU usage: 84.25%
+Average active workers: 4.88/8
+Average wait time: 5332.78 ms
+Average turnaround time: 5532.86 ms
+Max wait time: 20818 ms
